@@ -39,3 +39,31 @@ const Home = () => {
         <h3>Tudo isso de forma completamente automatizada :)</h3>
         <h3>É só seguir o passo a passo!</h3>
       </div>
+      <ul className={styles.lista}>
+        <li>
+          <Cadastro />
+          <h1>Cadastro</h1>
+          <p>Crie seu cadastro e insira seus dados.</p>
+        </li>
+        <li>
+          <Vistoria />
+          <h1>Vistoria de Imagens</h1>
+          <p> Faça o upload das imagens dos 4 ângulos de sua bike.</p>
+        </li>
+        <li>
+          <Camera />
+          <h1>Vistoria de Vídeos</h1>
+          <p>
+            Faça o upload de um vídeo que exiba nitidamente a condição de sua
+            bike.
+          </p>
+        </li>
+        <li>
+          <Nota />
+          <h1>Vistoria de Notas Fiscais</h1>
+          <p>
+            Faça o upload dos documentos que comprovem a legitimidade da sua
+            bike.
+          </p>
+        </li>
+      </ul>
