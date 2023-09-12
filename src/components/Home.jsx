@@ -26,3 +26,16 @@ const Home = () => {
           </div>
           <Bike />
         </div>
+        <div className={styles.servico}>
+        <h1>Nosso serviço</h1>
+        <h2>Uma solução pensada em você.</h2>
+        <p>
+          Sabemos o quão cansativo e nada intuitivo pode ser um processo de
+          acionamento de seguro veicular. Aplicativos mal otimizados,
+          atendimentos demorados e suportes irregulares, tudo isso acaba aqui!
+          Com apenas um cadastro simples e envio de alguns dados a segurança que
+          seu veículo merece pode ser conquistada.
+        </p>
+        <h3>Tudo isso de forma completamente automatizada :)</h3>
+        <h3>É só seguir o passo a passo!</h3>
+      </div>
