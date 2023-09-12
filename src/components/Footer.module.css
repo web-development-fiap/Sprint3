@@ -1,0 +1,9 @@
+.footer ul{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .footer {
+    color: #fff;
+    margin-bottom: 30px;
+  }
