@@ -1,0 +1,83 @@
+.home {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: center;
+  color: #fff;
+  margin-top: 120px;
+}
+
+.bike {
+  max-width: 400px;
+  margin-right: 60px;
+}
+
+.bike h1{
+  margin-bottom: 30px;
+  font-size: 1.5rem;
+}
+
+.bike p{
+  margin-bottom: 30px;
+  color: #ccc;
+}
+
+.servico {
+  color: #fff;
+  text-align: center;
+  max-width: 500px;
+  margin: 120px auto;
+
+}
+
+.servico h1 {
+  margin-bottom: 30px;
+} 
+
+.servico h2 {
+  margin-bottom: 30px;
+} 
+
+.servico p {
+  margin-bottom: 30px;
+} 
+
+.servico h3 {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.lista {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin: 60px 0;
+}
+
+.lista h1 {
+  font-size: 1.125rem;
+  color: #fff;
+  margin: 30px 0;
+}
+
+.lista li {
+  max-width: 200px;
+  color: #ccc;
+}
+
+.duvida {
+  display: flex;
+  justify-content: center;
+  margin: 60px 0;
+  align-items: center;
+}
+
+.duvida2 {
+  margin-right: 60px;
+}
+
+.duvida2 h1, .duvida p{
+  margin-bottom: 30px;
+  color: #fff;
+}
