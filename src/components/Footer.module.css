@@ -1,0 +1,33 @@
+.footer ul{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .footer {
+    color: #fff;
+    margin-bottom: 30px;
+  }
+
+  .footer h1 {
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+  }
+  
+  .footer li + li{
+    margin-left: 30px;
+  }
+  
+  .footer li {
+    font-size: 0.925rem;
+  }
+
+  @media (max-width: 700px) {
+    .footer li + li{
+      margin-left: 0px;
+      margin-top: 10px;
+    }
+  
+    .footer ul{
+      display: block;
+    }
+  }
