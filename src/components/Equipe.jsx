@@ -9,7 +9,7 @@ const Equipe = () => {
     <div className="container">
       <div className={styles.bgEquipe}>
         <div className={styles.equipe}>
-          <h1>Equipe CHALENGE</h1>
+          <h1>Equipe CHALLENGE</h1>
           <ul>
             <li>Mary Araújo Moreira Speranzini RM550242</li>
             <li>Luana Duque RM550813</li>
