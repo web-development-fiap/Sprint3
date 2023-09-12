@@ -5,3 +5,15 @@
     color: #fff;
     flex-wrap: wrap;
   }
+
+.menu {
+    display: flex;
+}
+  
+.menu li + li {
+    margin-left: 15px;
+}
+  
+.menu li:hover {
+    color: #ccc;
+}
