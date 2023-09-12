@@ -20,3 +20,14 @@
   .footer li {
     font-size: 0.925rem;
   }
+
+  @media (max-width: 700px) {
+    .footer li + li{
+      margin-left: 0px;
+      margin-top: 10px;
+    }
+  
+    .footer ul{
+      display: block;
+    }
+  }
