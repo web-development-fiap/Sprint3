@@ -17,3 +17,9 @@
 .menu li:hover {
     color: #ccc;
 }
+
+@media (max-width: 700px) {
+    .menu {
+      margin: 0 auto;
+    }
+  }
