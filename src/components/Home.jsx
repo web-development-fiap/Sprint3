@@ -67,3 +67,15 @@ const Home = () => {
           </p>
         </li>
       </ul>
+      <img className={styles.img} src={Img} alt="bike" />
+      <div className={styles.duvida}>
+        <div className={styles.duvida2}>
+          <h1>Ficou alguma dúvida?</h1>
+          <p>Fale diretamente conosco! É sempre um prazer te atender :)</p>
+          <button className="button">Contatar suporte</button>
+        </div>
+        <Envelope className={styles.envelope} />
+      </div>
+    </div>
+  );
+};
