@@ -36,4 +36,6 @@ const Login = () => {
                     required
                  />
                 </div>
-                
+                <button className={styles.log} type="submit">
+                    Log in
+                </button>
