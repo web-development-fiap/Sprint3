@@ -18,3 +18,6 @@ const Vistoria = () => {
             <p>Fazer upload das imagens da bicicleta</p>
           </li>
           <li></li>
+          <Camera />
+            <p>Fazer upload dos videos da bicicleta</p>
+          </li>
