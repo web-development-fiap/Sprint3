@@ -12,3 +12,9 @@ const Vistoria = () => {
         <p>Preencha os Formularios com atenção.</p>
         <div className={styles.opcoes}>
           <h1>Selecione uma opção</h1>
+          <ul>
+          <li>
+            <Imagem />
+            <p>Fazer upload das imagens da bicicleta</p>
+          </li>
+          <li></li>
