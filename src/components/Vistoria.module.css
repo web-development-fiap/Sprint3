@@ -46,3 +46,9 @@
 .opcoes li:hover {
   background-color: #ccc;
 }
+
+@media (max-width: 700px) {
+  .vistoria {
+    max-width: 350px;
+  }
+}
