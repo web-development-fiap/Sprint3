@@ -39,3 +39,12 @@ const Login = () => {
                 <button className={styles.log} type="submit">
                     Log in
                 </button>
+             </form>
+            </div>
+             <p>Esqueceu sua senha?</p>
+            <p>Cadastrar-se</p>
+            </div>
+   );
+ };
+
+export default Login;
