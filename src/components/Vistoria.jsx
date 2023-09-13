@@ -6,22 +6,33 @@ import styles from './Vistoria.module.css';
 import '../App.css';
 
 const Vistoria = () => {
-    return (
-      <div className={`container ${styles.vistoria}`}>
-        <h1>Vistoria Porto seguro BIKE</h1>
-        <p>Preencha os Formularios com atenção.</p>
-        <div className={styles.opcoes}>
-          <h1>Selecione uma opção</h1>
-          <ul>
+  return (
+    <div className={`container ${styles.vistoria}`}>
+      <h1>Vistoria Porto seguro BIKE</h1>
+      <p>Preencha os Formularios com atenção.</p>
+      <div className={styles.opcoes}>
+        <h1>Selecione uma opção</h1>
+        <ul>
           <li>
             <Imagem />
             <p>Fazer upload das imagens da bicicleta</p>
           </li>
-          <li></li>
-          <Camera />
+          <li>
+            <Camera />
             <p>Fazer upload dos videos da bicicleta</p>
           </li>
-          <VistoriaImg />
+          <li>
+            <VistoriaImg />
             <p>Fazer upload da nota fiscal da bicicleta</p>
           </li>
-          <li></li>
+          <li>
+            <VistoriaImg />
+            <p>Inserir informações adicionais da bicicleta</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  );
+};
+
+export default Vistoria;
