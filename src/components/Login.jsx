@@ -12,3 +12,17 @@ const Login = () => {
         <div className={styles.login}>
           <h1>Entrar</h1>
           <p>Entre com seu usuário e senha</p>
+          <div>
+             <form onSubmit={handleSubmit}>
+                <div>
+                 <label htmlFor="email"></label>
+                 <input
+                     type="email"
+                    id="email"
+                    placeholder="Email:"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                    required
+                 />
+                </div>
+                
