@@ -19,3 +19,7 @@
     border-radius: 20px;
     color: black;
 }
+
+.login form div + div{
+    margin-top: 5px;
+}
