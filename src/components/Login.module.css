@@ -1,0 +1,36 @@
+.login {
+    max-width: 300px;
+    margin: 120px auto;
+    color: #ACF87E;
+}
+
+.login p {
+    margin: 10px 0;
+}
+
+.login h1 {
+    font-size: 1.5rem;
+}
+
+.login input {
+    width: 200px;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 20px;
+    color: black;
+}
+
+.login form div + div{
+    margin-top: 5px;
+}
+
+.log {
+    width: 250px;
+    margin: 10px 0;
+    background-color: #ACF87E;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 15px 25px;
+    font-weight: bold;
+}
