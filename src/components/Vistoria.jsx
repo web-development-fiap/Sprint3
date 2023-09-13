@@ -27,7 +27,7 @@ const Vistoria = () => {
           </li>
           <li>
             <VistoriaImg />
-            <p>Inserir informações adicionais da bicicleta</p>
+            <p>Inserir informações adicionais da bicicleta:</p>
           </li>
         </ul>
       </div>
