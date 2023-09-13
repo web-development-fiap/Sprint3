@@ -3,3 +3,11 @@
     margin: 120px auto;
     color: #ACF87E;
 }
+
+.login p {
+    margin: 10px 0;
+}
+
+.login h1 {
+    font-size: 1.5rem;
+}
