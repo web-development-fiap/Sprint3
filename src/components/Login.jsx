@@ -25,4 +25,15 @@ const Login = () => {
                     required
                  />
                 </div>
+                <div>
+                 <label htmlFor="password"></label>
+                 <input
+                    type="password"
+                    id="password"
+                    placeholder="Senha:"
+                    value={password}
+                    onChange={(e) => setPassword(e.target.value)}
+                    required
+                 />
+                </div>
                 
