@@ -16,3 +16,17 @@
   margin: 10px 0;
 }
 
+.opcoes {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 50px;
+}
+
+.opcoes h1{
+  color: black;
+}
+
+.opcoes ul {
+  display: flex;
+  flex-wrap: wrap;
+}
